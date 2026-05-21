@@ -107,7 +107,7 @@
     }
 
     .portfolio-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     /* WHY US */
@@ -246,51 +246,26 @@
     }
 
     /* Services */
+    .services-grid {
+        margin-top: -5%;
+    }
+
     .service-card:hover {
         transform: none;
     }
 
-    .services-grid {
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 20px;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        margin-top: -50px;
-    }
-
-    .services-grid::-webkit-scrollbar {
-        display: none;
-    }
-
-    .service-card {
-        width: 320px;
-        flex-shrink: 0;
-        scroll-snap-align: start;
-    }
-
     /* Portfolio */
     .portfolio-grid {
-        display: flex;
-        flex-wrap: nowrap;
         gap: 20px;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        margin-top: -50px;
-    }
-
-    .portfolio-grid::-webkit-scrollbar {
-        display: none;
-    }
-
-    .portfolio-card {
-        width: 320px;
-        flex-shrink: 0;
-        scroll-snap-align: start;
+        margin-top: -5%;
     }
 
     .portfolio-card:hover {
         transform: none;
+    }
+
+    .portfolio-image {
+        height: 150px;
     }
 
     /* WHY US */
@@ -341,24 +316,6 @@
     }
 
     /* Pricing */
-    .pricing-grid {
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 20px;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-    }
-
-    .pricing-grid::-webkit-scrollbar {
-        display: none;
-    }
-
-    .pricing-card {
-        width: 320px;
-        flex-shrink: 0;
-        scroll-snap-align: start;
-    }
-
     .pricing-card:hover {
         transform: none;
     }
@@ -484,15 +441,7 @@
 
     /* Portfolio */
     .portfolio-card {
-        border-radius: 24px;
-    }
-
-    .portfolio-content h3 {
-        font-size: 22px;
-    }
-
-    .portfolio-image {
-        height: 220px;
+        border-radius: 10px;
     }
 
     /* Pricing */

@@ -764,7 +764,7 @@ a {
 }
 
 .portfolio-card {
-    border-radius: 30px;
+    border-radius: 10px;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.08);
@@ -833,48 +833,6 @@ a {
 .portfolio-icon:hover {
     transform: translateY(-6px);
     background: linear-gradient(135deg, #7c3aed, #06b6d4);
-}
-
-.portfolio-content {
-    padding: 28px;
-}
-
-.portfolio-category {
-    width: fit-content;
-    padding: 8px 14px;
-    border-radius: 999px;
-    background: rgba(124, 58, 237, 0.15);
-    color: #c4b5fd;
-    font-size: 13px;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
-
-.portfolio-content h3 {
-    font-size: 28px;
-    margin-bottom: 16px;
-}
-
-.portfolio-content p {
-    color: #9ca3af;
-    line-height: 1.8;
-    font-size: 15px;
-    margin-bottom: 24px;
-}
-
-.portfolio-tech {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-.portfolio-tech span {
-    padding: 10px 16px;
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    color: #d1d5db;
-    font-size: 13px;
 }
 
 /* WHY CHOOSE US */
